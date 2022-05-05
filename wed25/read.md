@@ -21,7 +21,14 @@ html <!DOCTYPE html>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit deleniti harum repellendus maxime distinctio, explicabo vel maiores! Quaerat eaque repudiandae quas tempore placeat quisquam ipsa perferendis impedit qui ducimus.
         </h2>
     </h3>
-    them chut csss
+    them chut css
+    ```css
+    h3{
+        color : red;
+    }
+    ```
+    neu muon tim hieu them thong tin
+  [ducanh](https://facebook.com)
 </body>
 </html>
 ```
