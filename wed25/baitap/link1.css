@@ -70,4 +70,7 @@ border: none;
   .col-xs-12 {
     flex-basis: 25%;
   }
-  
+  .content img {
+    width : 500px;
+    display : block;
+  }
