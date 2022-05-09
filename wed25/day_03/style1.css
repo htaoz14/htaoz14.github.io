@@ -1,0 +1,36 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+#footer {
+  background-color: #30598c;
+  font-weight: 400px;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer {
+  font-size: 15px;
+  line-height: 2.5em;
+}
+.footer,
+footer a,
+footer h4 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+.row {
+  display: flex;
+}
+
+.col-xs-12{
+    flex-basis: 25%;
+}
