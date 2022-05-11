@@ -8,7 +8,9 @@ body {
 .card a {
   text-decoration: none;
 }
-
+header{
+  margin-bottom: 20px;
+}
 .card img {
   width: 100%;
   display: block;
@@ -41,7 +43,7 @@ body {
 }
 .container {
   display: grid;
-  
+ 
   color: rgb(70, 70, 70);
 
   grid-gap: 2rem 2rem;
