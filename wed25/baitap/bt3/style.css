@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+.body{
+font-family: "Roboto", sans-serif;
+}
+.img {max-width: 100%;
+    display: block;
+    position: absolute;
+    top : 0;
+    left: 0;
+    object-fit: cover;
+}
+.card {
+    width: 350px;
+    background-color: rgb(19, 14, 8);
+    height: 310px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    top : 0;
+    left: 0;
+    position: absolute;
+}

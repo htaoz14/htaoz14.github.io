@@ -1,0 +1,38 @@
+.box{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    /* transition-property: width,height;
+     transition-duration: 10s,10s; 
+     transition-delay : 1s;  */
+transition: all 1s 1s linear;
+
+}
+.box:hover{
+    width: 1400px;
+    height: 700px;
+    background-color: violet;
+}
+.text{
+    width: 400px;
+    margin: auto;
+    background-color: yellow;
+    padding: 20px;
+      overflow: hidden; 
+}
+.text p {
+    transform: translateX(-450px);
+    transition: all 1s;
+  
+}
+.text:hover p {
+    transform: translateX(0);
+    
+}
+h2 {
+    transform: translateY(-400px);
+    transition: all 1s;
+}
+.text:hover h2{
+    transform: translateY(0);
+}
