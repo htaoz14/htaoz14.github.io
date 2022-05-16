@@ -1,0 +1,10 @@
+h1.animate__animated{
+    animation-name: bounce;
+    animation-duration:  3s;
+    animation-delay: 1s;
+}
+h2.animate__animated {
+    animation:jackInTheBox;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}

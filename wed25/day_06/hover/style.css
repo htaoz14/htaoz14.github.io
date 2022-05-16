@@ -75,7 +75,7 @@
     background: #fff;
     width: 100%;
     padding: 30px;
-   
+    
 }
 .photos{
     position: absolute;
@@ -87,6 +87,7 @@
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
+   
    
 }
 
@@ -106,18 +107,26 @@
       font-weight: 400;
      
 }
-.text  {
+.text   {
+    
+
     display: none;
     color: gray;
     font-size: 14px;
     line-height: 1.8em;
     transform: translateY(200px);
-    transition: all 1s ;
+    transition: all 1s 1s linear;
+  
+}
+.text p {
+    font-size: 14px;
+    line-height: 1.8em;
+    transition: all 1s 1s linear;
 }
 
     
   
-.card:hover .text     {
+.card:hover .text   {
 display: block;
 transform: translateY(0);
 

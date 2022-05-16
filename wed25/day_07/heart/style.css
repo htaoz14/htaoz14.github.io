@@ -1,0 +1,15 @@
+.animate__icon {
+    width: 500px;
+    height: 500px;
+    background: pink;
+    margin: auto;
+    position: relative;
+}
+.animate__icon span  {
+    position: absolute;
+    color: #fff;
+    font-size: 200px;
+    top : 150px;
+    left : 150px;
+    animation-name : zoomIn;
+}

@@ -11,7 +11,7 @@ img {
     transform: scale(1);
     
 }
-.image:hover img {
+.card:hover img {
     transform:scale(1.2) ;
 }
 
@@ -48,7 +48,7 @@ transition: all 1s;
 transition: all 1s;
    
 }
-.content:hover p {
+.card:hover p {
     transform: translateX(0);
 
 }
