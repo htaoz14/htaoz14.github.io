@@ -1,0 +1,112 @@
+// khai bao kiu bôlen
+let a = true;
+let b = false;
+console.log(a);
+console.log(b);
+console.log(!a);
+console.log(!b);
+//   hàm boolen
+console.log(Boolean(10));
+console.log(Boolean(10>5));
+console.log(Boolean(5>10));
+//  falsy value
+console.log(Boolean(null));
+console.log(Boolean(undefined));
+console.log(Boolean(""));
+console.log(Boolean(NaN));
+console.log(Boolean(0));
+console.log(Boolean(false))
+
+// mot so toan tu : ! ,  && , || dung de  ket hop cac dieu kien
+//  fallse 3 truong hợp
+console.log("toán tử điều kiện")
+console.log(true && true);
+console.log(false && true);
+console.log(true && false)
+console.log(false && false)
+// true 3 trường hợp
+console.log(true || true);
+console.log(false || true);
+console.log(true || false)
+console.log(false || false)
+
+//  if
+// console.log("cau lenh  if")
+let hour = 6;
+if(hour < 10) {
+    console.log("gutbai")
+}
+// vd2
+let troiDep = false;
+let coTien = true;
+if(troiDep && coTien) {
+    console.log("di cks")
+}
+// vd3
+let tienMat = false
+let chuyenKhoan = true;
+if(tienMat || chuyenKhoan){
+    console.log("Mua dc hang")
+}
+
+if(tienMat || chuyenKhoan) {
+    console.log("Mua dc hang")
+}
+//  if - else
+if( troiDep == true)
+ console.log("Di choi");
+ else {
+     console.log("O nha")
+ }
+//   vd2
+let money = 40;
+if(money >= 30){
+    console.log("mua ip13promax");
+}
+else{
+    console.log("mua s21");
+}
+// if-else/ else-esle
+money = 25;
+ if(money>=30){
+     console.log("mua ip13prm")
+ }
+ else if (money >= 20 && money < 30 ) 
+ { console.log("ip13")
+ }
+ else if (money >= 15 && money < 20
+    ) { console.log("ip12 prm")
+    }
+ else if (money <15
+        ) { console.log("ip12")
+        }
+        // if else lồng nhau
+        //  vi du : kiem tra 1 so la so nguyen duong , so nguyen am hay la so 0
+        // neu so do la so nguyen duong thi kiem tra tiep so do la so chan hay le
+        let number = -11;
+        if(number > 0){
+            console.log("so nguyen duong");
+
+            if(number % 2 == 0) {
+                console.log("so chan")
+                        }
+                        else {
+                            console.log("so le")
+                        }
+        }
+        else if ( number == 0){
+            console.log("so 0")
+        }
+        else {
+            console.log("so nguyen am")
+        }
+        // toasn tu 3  ngoi
+        if(hour < 12 ) {
+            console.log("gut moninh");
+        }
+        else {
+            console.log("gut nai");
+        }
+        hour < 12
+     console.log("gut moninh");
+        console.log("gut nai");

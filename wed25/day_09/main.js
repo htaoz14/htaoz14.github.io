@@ -63,3 +63,9 @@ let b = 22;
 console.log(b + a);
 console.log(c);
 console.log(a + name);
+/* Chứa các ký tự chữ, số, _ và $
+Ký tự đầu tiên không được là số (nên là chữ)
+Có phân biệt hoa thường
+Không trùng với các từ khóa của Javascript như: for, while, this, …
+Nên đặt tên theo kiểu camelCase nếu tên biến có độ dài 2 từ trở lên cho dễ đọc. Ví
+dụ binhphuong thì nên đặt là binhPhuong. */
