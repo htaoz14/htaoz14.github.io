@@ -15,5 +15,5 @@ else {
     console.log(`Năm không nhuận`)
 }
 }
-console.log(namNhuan(2024))
-console.log(namNhuan(2001))
+namNhuan(2024)
+namNhuan(2001)

@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+}
+
+.page-preview {
+    border-radius: 0;
+    height: 100%;
+}
+
+
+
+
+
+
+.page-preview-body {
+    height: calc(100% - 70px);
+    overflow: hidden;
+    text-align: center;
+}
+
+.page-preview-body iframe {
+    border: none;
+    display: inline-block;
+    height: 100%;
+}
+#livePreviewFrame{
+    
+
+    
+}
