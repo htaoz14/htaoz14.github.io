@@ -34,6 +34,11 @@ if(string.length <= 8){
 }
 
 }
+//function shortenString(str){
+  //if(str.length > 8) {
+    // return str.length()
+  //}
+//}
 console.log(shortenString("Xin chào các bạn"))
 console.log(shortenString("Xin chao"))
 //Bài 3. Viết function truyền vào 1 chuỗi, kiểm tra xem chuỗi đó có phải chuỗi đối xứng hay không (chuỗi đối xứng là chuỗi đọc xuôi hay ngược đều như nhau, không tính khoảng trắng, không phân biệt hoa thường), kết quả trả về true hoặc false.
@@ -42,6 +47,7 @@ console.log(shortenString("Xin chao"))
 
 //“Race car” => true,
 //“hello world” => false.
+//tach thanh mang ( slip ) _- dao nguoc chuoi ( reven)
 function doiXung(string) {
   let str = string.replace(/ /g, "").toLowerCase();
   let str2 = [];
@@ -68,6 +74,14 @@ console.log(doiXung('hello world'))
 function snake_Case(string){
   let str = string.toLowerCase();
   return str.replace(/ /g, "_")
+  // str.replaceAll("","")
 }
 console.log(snake_Case("HELLO world"))
 console.log(snake_Case("Xin Chào Các BẠN"))
+// Bài 4: Viết function truyền vào 1 số nguyên, hãy sắp xếp lại các chữ số trong số nguyên đó sao cho ra 1 số nhỏ nhất có thể (không tính số 0 đầu tiên).
+
+//Ví dụ
+
+// 53751 -> 13557
+// 14350 -> 10345
+// 203950 -> 200359
