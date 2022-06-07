@@ -19,12 +19,13 @@ max2Numbers(array1)
       let arr1 = [];
       for(let i = 0 ; i < array2.length ; i++) {
           if (array2[i].length == max) {    // dùng vòng lặp  để duyệt qua tất cả các mảng nếu length = max thì push vào mảng mới
-              arr1.push(array1[i])          }
+              arr1.push(array2[i])          }
 
       }
       return arr1;
   }
-  console.log(getStringHasMaxLength(['aba', 'aa', 'ad', 'c', 'vcd']) )
+  const arr2 = ["aba" , "aa" ,"ad" , "vcd" ]
+  console.log(getStringHasMaxLength(arr2 ))
 
 
 
@@ -54,7 +55,13 @@ console.log(similarity([1, 2, 3], [1, 2, 4]))
 // Tham số 1: Là 1 chuỗi thời gian (t) có dạng “giờ:phút:giây”
 // Tham số 2: Là 1 số x <= 1000
 function getTime(t,x){
-
+    let arr = time.split(":");
+    let s  = arr[0] * 3600 + arr[1] *60 + arr[2] * 1 + x * 1;
+ let hours = mat.floor(s / 3600);
+ let minutes = Math.floor(s / 60) % 60;
+ let second = s % 60;
+ return [ hours , minutes , second]
+ 
 }
 
 
