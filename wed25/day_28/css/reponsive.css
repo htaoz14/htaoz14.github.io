@@ -1,0 +1,38 @@
+
+@media (max-width : 768px){
+    #get-started {
+     padding : 80px 0;
+    }
+     #get-started h2 {
+    font-size:  40px;
+     } 
+     #get-started p {
+         width: 100%;
+
+     }
+    #noiphet p {
+   width: 100%;
+   font-size: 16px;
+   line-height: 29px;
+  }
+}
+ @media (max-width : 576px){
+     #get-started h2 {
+         font-size: 28px;
+     }
+     #get-started p {
+     margin: 16px auto;
+     font-size: 16px;
+     }
+ }
+ #noiphet p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+   }
+ .buy p:nth-child(1){
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+ }
+ 

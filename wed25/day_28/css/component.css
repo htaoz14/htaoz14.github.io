@@ -1,0 +1,115 @@
+body {
+    font-family: "Lato", sans-serif;
+    color:  #414141;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.service .container{
+    border-top: 1px solid;
+    padding: 86 0 132px ;
+}
+.service-item p:nth-child(2){
+    margin : 20px 0 14px;
+    font-size: 18px;
+    color: #414141;
+}
+.service-item p:nth-child(3){
+    color: #6C6C6C;
+    line-height: 28px;
+}
+#get-started{
+    background: linear-gradient(90deg, #fe985b 2.77% , #fe4fa7 100%);
+    padding: 120px 0;
+}
+#get-started h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+}
+#get-started p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 28px auto;
+    width: 540px;
+    
+}
+#get-started button {
+    border-radius: 4px;
+    background: #ffffff;
+    color: #464646;
+    font-size: 18px;
+    padding: 15px 50px;
+    border: none;
+}
+
+
+#noiphet{
+    background: #F6FAFD;
+}
+  
+
+#noiphet img{
+    width: 395px;
+    height: 648px;
+    
+}
+#noiphet .text {
+    width: 550px;
+    margin: auto;
+   
+    
+    color: #414141;
+  
+ 
+}
+.text p:nth-child(1){
+    line-height: 40px;
+    font-size: 24px;
+}
+.text p:nth-child(2){
+    line-height: 29px;
+   
+}
+.text p:nth-child(3){
+    line-height: 29px;
+    margin-top: -15px;
+}
+
+.choose p:nth-child(1){
+    line-height: 51px;
+    font-size: 36px;
+}
+.choose p:nth-child(2){
+    line-height: 28px;
+    font-size: 16px;
+}
+
+
+
+.month{
+ justify-content: center;
+}
+.month p:nth-child(1){
+font-size: 72px!important;
+font-weight: 700!important;
+line-height: 86px!important;
+letter-spacing: 0px;
+color: #FE4FA7;
+}
+.month p:nth-child(2){
+   
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0px;
+
+
+}
+.button{
+    background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 97.42%);
+
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Lato:ital,wght@0,300;0,400;0,900;1,700&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Chivo", sans-serif;
+    color :  #414141;
+    
+    background-image: url("./main\ illustration.png");
+    width: 100%;
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    height: 1108px;
+    background-position: right;
+}
+
+
+img {
+    max-width: 100%;
+}
+ul  {
+    list-style: none;
+}

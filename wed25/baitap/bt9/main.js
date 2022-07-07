@@ -35,6 +35,11 @@ for( let i = 8 ; i <11 ; i++ ){
 document.querySelectorAll("ul li ")[0].style.color = "red"
 document.querySelectorAll("ul li")[2].style.backgroundColor = "blue"
 document.querySelectorAll("ul li")[3].remove();
-const newli = document.createElement(li)
+const newli = document.createElement("li")
 newli.innerText = " li new"
 document.querySelectorAll("ul li")[2].insertAdjacentElement("afterend",newli)
+
+
+const list = document.querySelector("#list")
+console.log(list)
+const add = document.createElement("")
