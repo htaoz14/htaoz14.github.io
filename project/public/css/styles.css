@@ -44,7 +44,7 @@ body {
     }
 }
 
-/* 1.2 - HTML5 Elements */
+
 
 article,
 aside,
@@ -61,7 +61,7 @@ section {
     display: block;
 }
 
-/* 1.4 - Typography */
+
 
 h1,
 h2,
@@ -144,7 +144,7 @@ p {
     line-height: 21px
 }
 
-/* 1.5 - Links and Buttons */
+/* Links and Buttons */
 
 a {
     text-decoration: none;
@@ -197,7 +197,7 @@ img {
     font-weight: 300;
 }
 
-/*   header ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*   header */
 
 /*site-topbar*/
 
@@ -501,7 +501,7 @@ a.remove-cart:hover {
     color: #fff;
 }
 
-/*  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end   header */
+/* end   header */
 
 .home-index-hero {
     background: #ffffff;
@@ -542,7 +542,7 @@ a.remove-cart:hover {
 }
 
 .slider-default .flex-direction-nav li a.flex-prev {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/icon-slides.png?v=161") no-repeat -84px 50%;
+    background: url("//public/img/icon-slides.png") no-repeat -84px 50%;
 }
 
 .slider-default .flex-direction-nav li a.flex-prev:hover {
@@ -551,7 +551,7 @@ a.remove-cart:hover {
 
 .slider-default .flex-direction-nav li a.flex-next {
     right: 0;
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/icon-slides.png?v=161") no-repeat -125px 50%;
+    background: url("//public/img/icon-slides.png") no-repeat -125px 50%;
 }
 
 .slider-default .flex-direction-nav li a.flex-next:hover {
@@ -614,31 +614,31 @@ a.remove-cart:hover {
 }
 
 #ver_popup12 {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/dt.png?v=161") right bottom no-repeat #fff;
+    
 }
 
 #ver_popup13 {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/mo.png?v=161") right bottom no-repeat #fff;
+   
 }
 
 #ver_popup14 {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/bgr-menu3.png?v=161") right bottom no-repeat #fff;
+   
 }
 
 #ver_popup15 {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/bgr-menu4.png?v=161") right bottom no-repeat #fff;
+    
 }
 
 #ver_popup16 {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/bgr-menu5.png?v=161") right bottom no-repeat #fff;
+    
 }
 
 #ver_popup17 {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/bgr-menu6.png?v=161") right bottom no-repeat #fff;
+    
 }
 
 #ver_popup18 {
-    background: url("//theme.hstatic.net/200000290933/1000682082/14/bgr-menu7.png?v=161") right bottom no-repeat #fff;
+   
 }
 
 .navbar-inner {
@@ -753,7 +753,7 @@ a.remove-cart:hover {
     }
 }
 
-/* banner dÆ°á»›i slide*/
+/* banner slide*/
 
 .box-span12 {
     padding-bottom: 25px;
@@ -933,7 +933,7 @@ a.remove-cart:hover {
 }
 
 .banner-left img:hover {
-    webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     -webkit-transform: translate3d(0, -2px, 0);
     transform: translate3d(0, -2px, 0);
@@ -1096,7 +1096,7 @@ p.pro-price-del {
 }
 
 .product-block:hover {
-    webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     -webkit-transform: translate3d(0, -2px, 0);
     transform: translate3d(0, -2px, 0);
@@ -1981,9 +1981,7 @@ span.sign {
     width: 100%;
 }
 
-.author-date .date-post .icon-time {
-    background: url('//hstatic.net/0/0/global/design/theme-default/time-big.png') no-repeat center;
-}
+
 
 .icon-time {
     display: inline-block;
@@ -2016,9 +2014,7 @@ span.sign {
     text-align: center;
 }
 
-.article-count .count-comment .icon-comment {
-    background: url('//hstatic.net/0/0/global/design/theme-default/comment.png') no-repeat center;
-}
+
 
 .icon-comment {
     display: inline-block;
@@ -2246,7 +2242,7 @@ body.open-menu>.container-mp {
 
 .mp-menu {
     position: absolute;
-    /* we can't use fixed here :( */
+    
     top: 0;
     left: 0;
     z-index: 1;
@@ -2269,7 +2265,7 @@ body.open-menu>.container-mp {
     transform: translate3d(-100%, 0, 0);
 }
 
-/* overlays for pusher and for level that gets covered */
+/* pusher*/
 
 .mp-pusher::after,
 .mp-level::after,
@@ -2345,7 +2341,7 @@ body.open-menu>.container-mp {
     transform: translate3d(0, 0, 0);
 }
 
-/* cover */
+/* cover*/
 
 .mp-cover .mp-level.mp-level-open {
     -webkit-transform: translate3d(0, 0, 0);
@@ -2359,7 +2355,7 @@ body.open-menu>.container-mp {
     transform: translate3d(-100%, 0, 0);
 }
 
-/* content style */
+
 
 .mp-menu ul {
     margin: 0;
@@ -2439,7 +2435,7 @@ body.open-menu>.container-mp {
     box-shadow: inset 0 -1px rgba(0, 0, 0, 0), inset 0 1px rgba(0, 0, 0, 0);
 }
 
-/* seems like Chrome 34.0.1847.131 needs the second shadow otherwise the transition breaks */
+
 
 .mp-back {
     background: rgba(0, 0, 0, 0.1);
@@ -2474,9 +2470,7 @@ body.open-menu>.container-mp {
     color: transparent;
 }
 
-/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 
-/* We'll show the first level only */
 
 .no-csstransforms3d .mp-pusher,
 .no-js .mp-pusher {

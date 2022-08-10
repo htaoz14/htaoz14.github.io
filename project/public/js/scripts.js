@@ -163,7 +163,7 @@ $(document).ready(function() {
 
 
         });
-        // Hide Modal
+       
         $('#quick-view-modal').modal('hide');
     });
 });
@@ -292,9 +292,7 @@ $(document).ready(function() {
     };
 
     Haravan.onError = function(XMLHttpRequest, textStatus) {
-        // Haravan returns a description of the error in XMLHttpRequest.responseText.
-        // It is JSON.
-        // Example: {"description":"The product 'Amelia - Small' is already sold out.","status":500,"message":"Cart Error"}
+        
         var data = eval('(' + XMLHttpRequest.responseText + ')');
         if (!!data.message) {
             alert(data.message + '(' + data.status + '): ' + data.description);
@@ -331,7 +329,7 @@ jQuery(document).ready(function() {
             controlNav: true,
             keyboardNav: true
         });
-        //.hover(function(){ $('.flex-direction-nav').fadeIn();}, function(){$('.flex-direction-nav').fadeOut();});
+        
 
     }
 
@@ -359,7 +357,7 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    $('input[type="submit"], input.btn, button').click(function() { // remove ugly outline on input button click
+    $('input[type="submit"], input.btn, button').click(function() { // 
         $(this).blur();
     })
 
@@ -378,9 +376,7 @@ jQuery(document).ready(function($) {
         });
     });
 
-}); // end document ready
-
-/* jQuery css bezier animation support -- Jonah Fox */
+});
 
 ;
 (function($) {
@@ -540,7 +536,7 @@ function getCartAjax() {
             $('.modal-title b').html(cart.item_count);
             $('*[id=cart-count]').html(cart.item_count);
             if (cart.item_count == 0) {
-                //$('#myCart button').attr('disabled', '');
+              
                 $('#myCart #cartform').addClass('hidden');
                 $('#myCart #exampleModalLabel').html('Giỏ hàng của bạn đang trống. Mời bạn tiếp tục mua hàng.');
             } else {
@@ -619,7 +615,7 @@ function deleteCart(variant_id) {
 $('#checkout').click(function() {
     $('#cartform').submit();
 })
-// The following piece of code can be ignored.
+
 $(function() {
     $(window).resize(function() {
         $('#info').text("Page width: " + $(this).width());

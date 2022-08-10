@@ -6,7 +6,7 @@
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 300;
-    src: local('roboto condensed light'), local('roboto condensed light'), url(//hstatic.net/0/0/global/design/member/fonts-master/apache/robotocondensed/robotocondensed-light.ttf) format('truetype')
+    src: local('roboto condensed light'), local('roboto condensed light'), url("//public/img/icon-slides.png") format('truetype')
 }
 
 /*********** Roboto condensed light ilatic *********/
@@ -15,7 +15,7 @@
     font-family: 'Roboto Condensed';
     font-style: italic;
     font-weight: 300;
-    src: local('roboto condensed light italic'), local('roboto condensed light italic'), url(//hstatic.net/0/0/global/design/member/fonts-master/apache/robotocondensed/robotocondensed-lightitalic.ttf) format('truetype')
+    src: local('roboto condensed light italic'), local('roboto condensed light italic'), url(//public/img/icon-slides.png) format('truetype')
 }
 
 /*********** Roboto condensed regular *********/
