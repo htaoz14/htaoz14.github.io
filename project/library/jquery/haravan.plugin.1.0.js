@@ -1,5 +1,11 @@
-
- 
+/*!
+ * iCheck v1.0.2, http://git.io/arlzeA
+ * ===================================
+ * Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization
+ *
+ * (c) 2013 Damir Sultanov, http://fronteed.com
+ * MIT Licensed
+ */
 
 (function($) {
 
@@ -1881,7 +1887,17 @@
                             ['click', $.proxy(this.docClick, this)]
                         ], eNS));
                     }
-                    
+                    // hide sub menus on resize
+                    $(window).bind(getEventsNS([
+                        ['resize orientationchange', $.proxy(this.winResize, this)]
+                    ], eNS));
+
+                    if (this.opts.subIndicators) {
+                        this.$subArrow = $('<span/>').addClass('sub-arrow');
+                        if (this.opts.subIndicatorsText) {
+                            this.$subArrow.html(this.opts.subIndicatorsText);
+                        }
+                    }
 
                     // make sure mouse detection is enabled
                     initMouseDetection();
@@ -2799,7 +2815,8 @@
                     .removeDataSM('beforefirstshowfired');
                 this.$root.find('a.has-submenu').removeClass('has-submenu')
                     .parent().removeDataSM('sub');
-               
+                if (this.opts.subIndicators) {
+                    this.$root.find('span.sub-arrow').remove();
                 }
                 if (this.opts.markCurrentItem) {
                     this.$root.find('a.current').removeClass('current');
