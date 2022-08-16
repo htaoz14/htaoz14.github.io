@@ -361,11 +361,11 @@ html input[disabled] {
 }
 
 .btn-color-buy:after {
-    background: url(//hstatic.net/0/0/global/design/theme-default/check.png) no-repeat center center;
+    background: url(../img/check.jpg) no-repeat center center;
 }
 
 .btn-color-add:after {
-    background: url(//hstatic.net/0/0/global/design/theme-default/cart.png) no-repeat center center;
+    background: url(../img/cart.jpg) no-repeat center center;
 }
 
 .btn-color-add {
@@ -533,7 +533,7 @@ div.errors {
 
 .button-default:after {
     content: "";
-    background: url(//public/img/icon-tieptuc.png) no-repeat center right;
+    background: url(../img/icon-tieptuc.png) no-repeat center right;
     width: 30px;
     height: 100%;
     float: right;

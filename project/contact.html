@@ -1,18 +1,16 @@
 <!doctype html>
-
 <html lang="en">
-
-
 <head>
-   
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./public/img/favicon.ico" type="image/png" />
     <meta charset="utf-8" />
-    
+
     <title>
-        Giới thiệu - Manga Bủh
+      Liên hệ - Manga Bủh
     </title>
-     <!--Js-->
+    <script src="./library/bootstrap/bootstrap.min.js"></script>
     <script src="./library/jquery/jquery.min.1.11.0.js"></script>
     <script src="./library/jquery/api.jquery.js" type='text/javascript'></script>
     <script src="./library/jquery/jquery-ui.min.js" type='text/javascript'></script>
@@ -36,13 +34,16 @@
     <script src="./public/js/image-loaded.js"type='text/javascript'></script>
     <script src="./public/js/classie.js" type='text/javascript'></script>
     <script src="./public/js/mlpushmenu.js"type='text/javascript'></script>
+    <script src="./public/js/classie.js" type='text/javascript'></script>
+    <script src="./public/js/custommenu.js"></script>
+    <script src='//theme.hstatic.net/200000290933/1000682082/14/classie.js?v=162' type='text/javascript'></script>
     <!--------------CSS----------->
     <link href="./public/css/owl.carousel.css" rel='stylesheet' type='text/css' media='all' />
     <link rel="stylesheet" href="./library/bootstrap/bootstrap.3.3.1.css">
     <link href="./public/css/haravantheme.1.0.css" rel='stylesheet' type='text/css' media='all' />
-    <link href="./public/css/font-awesome.min.css" rel='stylesheet' type='text/css' media='all' />
     <link href='./public/css/custommenu.css' rel='stylesheet' type='text/css' media='all' />
     <link href='//hstatic.net/0/global/design/css/font-awesome.min.css' rel='stylesheet' type='text/css' media='all' />
+    <link rel="stylesheet" href="//hstatic.net/0/0/global/design/css/bootstrap.3.3.1.css">
     <link href="./library/jquery/flexslider.css" rel='stylesheet' type='text/css' media='all' />
     <link href="./public/css/styles.css" rel='stylesheet' type='text/css' media='all' />
     <link href="./public/css/posvegamenu.css" rel='stylesheet' type='text/css' media='all' />
@@ -52,17 +53,9 @@
     <link href="./public/css/animate.min.css" rel='stylesheet' type='text/css' media='all' />
     <link rel="stylesheet" type="text/css" href="./public/css/robotocondensed.css">
     <link href="./public/css/page-contact-form.css" rel='stylesheet' type='text/css' media='all' />
-    
-
-    
-
-    
-
-
 </head>
 
 <body>
-    
     <div class="container-mp nav-wrapper">
         <!-- Begin: wrapper -->
         <div class="wrapper mp-pusher" id="mp-pusher">
@@ -273,7 +266,7 @@
                                     <a class="link" href="./account/register.html" title="Đăng ký">Đăng ký</a>
 
                                     <span class="sep">|</span>
-                                    <a class="link" href="./account/register.html" title="Đăng nhập">Đăng nhập</a>
+                                    <a class="link" href="./account/login.html" title="Đăng nhập">Đăng nhập</a>
 
 
                                 </div>
@@ -344,7 +337,6 @@
                                                     </a>
                                                     <ul class="dropdown-menu" role="menu">
 
-                                                       
                                                         <li>
                                                             <a href="./page/collections/Truyentranh.html"
                                                                 title="Truyện tranh">Truyện tranh</a>
@@ -445,7 +437,6 @@
 
 
 
-
                                                 <li class="nav-item">
                                                     <a href="./about.html" class="link " title="Giới Thiệu">
                                                         <span>Giới Thiệu</span>
@@ -455,7 +446,7 @@
 
 
                                                 <li class="nav-item">
-                                                    <a href="news.html" class="link " title="Blogs">
+                                                    <a href="./news.html" class="link " title="Blogs">
                                                         <span>Blogs</span>
                                                     </a>
                                                 </li>
@@ -495,7 +486,6 @@
                                         <a class="btn btn-navbar"></a>
                                         <span class="brand">Danh mục</span>
                                         <ul id="ma-mobilemenu" class="tree dhtml  mobilemenu nav-collapse collapse">
-
                                             <li>
                                                 <a href="./page/collections/Truyentranh.html">
                                                     <i class="fa fa-star"></i>Truyện tranh
@@ -572,6 +562,8 @@
                                                 </a>
                                             </li>
 
+                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -579,14 +571,15 @@
                            
                         </div>
                     </div>
+   
                     <script>
-                       
+                        //<![CDATA[
                         var CUSTOMMENU_POPUP_EFFECT = 0;
                         var CUSTOMMENU_POPUP_TOP_OFFSET = 65;
-                       
+                        //]]>
                     </script>
                     <script>
-                        $(window).resize(function () {
+                        $(window).resize(function() {
                             $('li.dropdown li.active').parents('.dropdown').addClass('active');
                             if ($('.right-menu').width() + $('#navbar').width() > $('.check_nav.nav-wrapper').width() - 40) {
                                 $('.container-mp.nav-wrapper').addClass('responsive-menu');
@@ -595,23 +588,23 @@
                             }
                         })
 
-                        $(document).on("click", "ul.mobile-menu-icon .dropdown-menu ,.drop-control .dropdown-menu, .drop-control .input-dropdown", function (e) {
+                        $(document).on("click", "ul.mobile-menu-icon .dropdown-menu ,.drop-control .dropdown-menu, .drop-control .input-dropdown", function(e) {
                             e.stopPropagation();
                         });
                     </script>
                     <script>
                         var viewout = true;
-                        $(document).ready(function () {
-                            $('.icon_search').hover(function () {
+                        $(document).ready(function() {
+                            $('.icon_search').hover(function() {
                                 $('#search_block_top').stop().slideDown();
-                            }, function () {
-                                setTimeout(function () {
+                            }, function() {
+                                setTimeout(function() {
                                     if (viewout) $('#search_block_top').stop().slideUp();
                                 }, 500)
                             })
-                            $('#search_block_top').hover(function () {
+                            $('#search_block_top').hover(function() {
                                 viewout = false;
-                            }, function () {
+                            }, function() {
                                 viewout = true;
                                 $('#search_block_top').stop().slideUp();
                             })
@@ -620,23 +613,80 @@
                     <div class="main-content-wrapper">
 
                         <div class="container">
-                            <div class="col-md-12" id="layout-page">
-                                <span class="header-page clearfix">
-				<h1>Giới thiệu</h1>
-			</span>
+                            <div class="row">
+                                <div id="page">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="layout-page">
 
-                                <div class="content-page">
+                                        <span class="header-contact header-page clearfix">
+					<h1>Liên Hệ</h1>
+				</span>
 
-                                    <p><strong>Manga Bủh</strong></p>
-                                    <p><strong>Hotline:</strong>&nbsp;012.345.6789</p>
-                                    <p><strong>Email:&nbsp;</strong>Mangabuh@manga.vn</p>
-                                    <p>Cửa hàng truyện tranh Manga Bủh xin chào các wibu  : </p>
-                                    <p>Nếu bạn đang cảm thấy chán nản khi suốt ngày gán mắt vào các thiết bị điện tử thì STOP ngay và dành ra 3 phút để chọn cho mình một quyển truyện biết đâu nó sẽ giúp bạn thay đổi góc nhìn của bản thân và giúp bạn tích cực lên. :D
-                                    Chỉ với 3 phút thôi bạn sẽ mua được những quyển truyện từ hài hước , vui nhộn , tình cảm hay kinh dị , ... tùy vào sở thích của bạn với 1 tốc độ nhanh hơn việc bạn đi solo bàn phím trên mạng hay crush rep tin nhắn của bạn.
-                                    Hãy đến với chúng tôi ( Manga Bủh ) nhưng quyển truyện sẽ mang nỗi buồn của bạn đi tốt hơn cả chơi đồ.  </p>
-                                    <p><strong>Cơ sở </strong>Số 48, Tố Hữu, Lê Văn Lương kéo dài, Hà Nội<br>Tel: 012.345.6789<br> </p>
-                                    
-                                    <p><em><strong>Mở cửa từ 08:00 đến 22:00 hàng ngày.</strong></em></p>
+                                        <div class="content-contact content-page">
+
+                                            <p class="text-center">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8661798498824!2d105.79136744141577!3d20.998000692170805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acb06325d365%3A0xe874a94fe06dd9f4!2sLilama%2010%20Tower!5e0!3m2!1svi!2s!4v1660317076532!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </p>
+
+
+                                            <div class="col-md-7" id="col-left contactFormWrapper">
+                                                <h3>Viết nhận xét</h3>
+                                                <hr class="line-left" />
+                                                <p>
+                                                    Nếu bạn có thắc mắc gì, có thể gửi yêu cầu cho chúng tôi, và chúng tôi sẽ liên lạc lại với bạn sớm nhất có thể .
+                                                </p>
+                                                <form accept-charset='UTF-8' action='/contact' class='contact-form' method='post'>
+                                                    <input name='form_type' type='hidden' value='contact'>
+                                                    <input name='utf8' type='hidden' value='✓'>
+
+
+
+
+                                                    <div class="form-group">
+                                                        <label for="contactFormName" class="sr-only">Tên</label>
+                                                        <input required type="text" id="contactFormName" class="form-control input-lg" name="contact[name]" placeholder="Tên của bạn" autocapitalize="words" value="">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="contactFormEmail" class="sr-only">Email</label>
+                                                        <input required type="email" name="contact[email]" placeholder="Email của bạn" id="contactFormEmail" class="form-control input-lg" autocorrect="off" autocapitalize="off" value="">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="contactFormMessage" class="sr-only">Nội dung</label>
+                                                        <textarea required rows="6" name="contact[body]" class="form-control" placeholder="Viết bình luận" id="contactFormMessage"></textarea>
+                                                    </div>
+
+                                                    <input type="submit" class="btn btn-primary btn-lg" value="Gửi liên hệ" />
+
+
+                                                  
+                                                </form>
+
+                                            </div>
+
+                                            <div class="col-md-5" id="col-right">
+                                                <h3>Chúng tôi ở đây</h3>
+                                                <hr class="line-right" />
+                                                <h3 class="name-company">Công ti TNHH 1 thành viên Rosé</h3>
+                                                <p>Mỗi cuốn sách là một giấc mơ mà bạn cầm trên tay </p>
+                                                <ul class="info-address">
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-map-marker"></i>
+                                                        <span>Số 48, Tố Hữu, Lê Văn Lương kéo dài, Hà Nội</span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-envelope"></i>
+                                                        <span>Mangabuh@manga.vn</span>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-phone-alt"></i>
+                                                        <span>012.345.6789</span>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -733,6 +783,9 @@
                                                 <li><a href="./page/allproduct.html" title="Tất cả sản phẩm">Tất cả sản
                                                         phẩm</a></li>
 
+
+                                                   
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -743,15 +796,15 @@
                                             <div class="block_content toggle-footer" style="">
                                                 <ul class="bullet">
 
-                                                    <li><a href="/" title="Trang Chủ">Trang Chủ</a></li>
+                                                    <li><a href="./index.html" title="Trang Chủ">Trang Chủ</a></li>
 
-                                                    <li><a href="/page/allproduct.html" title="Sản Phẩm">Sản Phẩm</a></li>
+                                                    <li><a href="./page/allproduct.html" title="Sản Phẩm">Sản Phẩm</a></li>
 
-                                                    <li><a href="/about.html" title="Giới Thiệu">Giới Thiệu</a></li>
+                                                    <li><a href="./about.html" title="Giới Thiệu">Giới Thiệu</a></li>
 
-                                                    <li><a href="/news.html" title="Blogs">Blogs</a></li>
+                                                    <li><a href="./news.html" title="Blogs">Blogs</a></li>
 
-                                                    <li><a href="/contact.html" title="Liên Hệ">Liên Hệ</a></li>
+                                                    <li><a href="./contact.html" title="Liên Hệ">Liên Hệ</a></li>
 
                                                 </ul>
                                             </div>
@@ -763,6 +816,7 @@
                                             <div class="block_content toggle-footer">
                                                 <ul class="bullet">
 
+                                                    
                                                     <li><a href="./page/service/doitra.html"
                                                         title="Chính sách đổi trả">Chính sách đổi trả</a></li>
 
@@ -914,7 +968,7 @@
                             <div class="col-lg-6">
                                 <div class="comeback">
                                     <a href="/collections/all">
-											<img src="//hstatic.net/0/0/global/design/theme-default/icon-tieptuc.png" />Tiếp tục mua hàng
+											<img src="./public/img/icon-tieptuc.png" />Tiếp tục mua hàng
 										</a>
                                 </div>
                             </div>
@@ -1156,7 +1210,8 @@
                                 });
                             }
                         });
-             
+                        
+				
                     }
 
                 }

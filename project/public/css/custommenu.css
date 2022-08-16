@@ -507,11 +507,11 @@
 .mobilemenu li.selected span.head a {}
 
 .mobilemenu .grower.OPEN span.head a {
-    background: url(//hstatic.net/226/1000041226/1000063107/menu_up.png?v=331) no-repeat 50% 50%;
+    background: url(../img/menu_down.jpg) no-repeat 50% 50%;
 }
 
 .mobilemenu .grower.CLOSE span.head a {
-    background: url(//hstatic.net/226/1000041226/1000063107/menu_down.png?v=331) no-repeat 50% 50%;
+    background: url(../img/menu_down.jpg) no-repeat 50% 50%;
 }
 
 /*.mobilemenu span.head a:hover*/
