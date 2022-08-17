@@ -111,6 +111,7 @@
     }
     .content-product-list .product-block {
         margin-bottom: 5px !important;
+        
     }
     #content {
         padding: 0;
@@ -156,3 +157,19 @@
         max-width: 100% !important;
     }
 }
+@media (max-width:400px) {
+    #rainbow-list .item .product-block {
+        height: 450px !important;
+    }
+    #rainbow-list .item .product-img{
+        height: 350px !important;
+    }
+    .product-block{
+        height: 270px !important;
+    }
+    .product-img{
+        height: 180px !important;
+    }
+
+}
+
