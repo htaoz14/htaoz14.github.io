@@ -164,11 +164,11 @@
     #rainbow-list .item .product-img{
         height: 350px !important;
     }
-     .product-block .product-resize{
-        height: 250px !important;
+     .fixheight{
+        height: 300px !important;
     }
-    .product-img .image-resize {
-        height: 180px !important;
+    .clearfix {
+        height: 200px !important;
     }
 
 }
