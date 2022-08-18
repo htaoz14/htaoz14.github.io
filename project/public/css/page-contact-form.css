@@ -157,17 +157,17 @@
         max-width: 100% !important;
     }
 }
-@media (max-width:400px) {
+@media (max-width:450px) {
     #rainbow-list .item .product-block {
         height: 450px !important;
     }
     #rainbow-list .item .product-img{
         height: 350px !important;
     }
-    .product-block{
-        height: 270px !important;
+     .product-block .product-resize{
+        height: 250px !important;
     }
-    .product-img{
+    .product-img .image-resize {
         height: 180px !important;
     }
 
