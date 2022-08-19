@@ -194,7 +194,9 @@
     #rainbow-list .item .product-img{
         height: 360px !important;
     }
-    
+    .home-channel-list{
+        height: 170px !important;
+    }
 
 }
 
